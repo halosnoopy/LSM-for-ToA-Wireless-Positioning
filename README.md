@@ -37,6 +37,9 @@ To improve computational efficiency, this project applies the Least Squares Meth
 ## File Descriptions
 
 ` simulation.m`  - Generates a 3D environment with four base stations and a random user point. Computes distances using ToA and visualizes the scene.
+
 ` LS.m`  - Implements the Least Squares algorithm to estimate the user’s position based on distance measurements. 
+
 ` auto_run.m`  - Automates the simulation and positioning process for multiple iterations (e.g., 100 runs). Displays estimated positions and errors. 
+
 `RMSE_noise.m` - Evaluates the effect of White Gaussian Noise on positioning accuracy. Computes and plots RMSE versus noise standard deviation.
