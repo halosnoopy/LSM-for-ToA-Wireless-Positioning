@@ -50,12 +50,15 @@ To improve computational efficiency, this project applies the Least Squares Meth
 The following figures illustrate the simulation process for the ToA-based trilateration using the LSM in MATLAB.
 
 Figure 1  Initialization of the 3D environment with four base stations (BS1–BS4) placed at the corners of a 10 m × 10 m × 10 m space. The green dot represents a randomly generated user point.
+
 <img width="575" height="433" alt="image" src="https://github.com/user-attachments/assets/7b00efda-1485-4f9d-b6b8-f2e29463efd7" />
 
 Figure 2 Visualization of the distance connections between the user and each base station, representing the ToA ranging data used in trilateration.
+
 <img width="563" height="423" alt="image" src="https://github.com/user-attachments/assets/91d3cd69-59a8-4302-9929-fa2468e80b51" />
 
-Figure 3 Final localization result after applying the Least Squares Method. The green dot represents the true user position, and the red diamond represents the estimated position. The small gap between them indicates the estimation error. 
+Figure 3 Final localization result after applying the Least Squares Method. The green dot represents the true user position, and the red diamond represents the estimated position. The small gap between them indicates the estimation error.
+
 <img width="624" height="473" alt="image" src="https://github.com/user-attachments/assets/d88f0173-94f6-4a21-9876-364fef02996a" />
 
 
